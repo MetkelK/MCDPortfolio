@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="output.css">
+	<title>Mab Coates-Davies</title>
+	<script rel="preconnect" src="https://kit.fontawesome.com/3ce30db80b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="fixed w-full flex items-center justify-between flex-wrap bg-gray-800 p-6 font-Montserrat">
+			<div class="flex items-center flex-shrink-0 mr-6">
+				<h1 class="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Mab Coates-Davies</h1>
+			</div>
+			<div class="block md:hidden">
+				<button id="menu-button" class="flex items-center px-3 py-2 border rounded text-white hover:text-gray-300 hover:border-white">
+					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+				</button>
+			</div>
+			<div id="menu-list" class="w-full hidden block flex-grow md:flex md:items-center md:w-auto">
+				<div class="text-sm md:flex-grow">
+					<a id="about" href="Index.html" class="block mt-4 md:inline-block md:mt-0 mr-4 text-white hover:text-gray-400">About</a>
+					<a id="writing" href="Writing.html" class="block mt-4 md:inline-block md:mt-0 mr-4 text-white hover:text-gray-400">Writing</a>
+					<a id="photography" href="Photography.html" class="block mt-4 md:inline-block md:mt-0 mr-4 text-white hover:text-gray-400">Photography</a>
+					<a id="research" href="Research.html" class="block mt-4 md:inline-block md:mt-0 mr-4 text-white hover:text-gray-400">Research</a>
+					<a id="contact" href="Contact.html" class="block mt-4 md:inline-block md:mt-0 mr-4 text-white hover:text-gray-400">Contact</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="flex flex-col justify-center items-center h-screen font-Roboto">
+		<ul class="">
+			<li class="my-4">
+				<a href="mailto:mab.yvonne@gmail.com" target="_blank" rel="noreferrer"><i class="fas fa-envelope px-4 text-4xl mr-2"></i>mab.yvonne@gmail.com</a>
+			</li>
+			<li class="my-4">
+				<a href="http://www.twitter.com/mabidab" target="_blank" rel="noreferrer"><i class="fab fa-twitter px-4 text-4xl text-black mr-2"></i>Mabidab</a>
+			</li>
+			<li class="my-4">
+				<a href="http://www.instagram.com/mabyvonne" target="_blank" rel="noreferrer"><i class="fab fa-instagram px-4 text-4xl text-black mr-2"></i>Mabyvonne</a>
+			</li>
+		</ul>
+	</main>
+	<footer class="w-full flex items-center justify-center flex-wrap bg-gray-800 p-6 fixed bottom-0">
+		<a href="http://www.twitter.com/mabidab" target="_blank" rel="noreferrer"><i class="fab fa-twitter px-4 text-white hover:text-gray-400"></i></a>
+		<a href="http://www.instagram.com/mabyvonne" target="_blank" rel="noreferrer"><i class="fab fa-instagram px-4 text-white hover:text-gray-400"></i></a>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
